@@ -1,0 +1,191 @@
+FIRSYT DAY OF PYTHON: 
+ Python 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello")
+Hello
+>>> x = 10
+>>> print(x)
+10
+>>> x = 10 - 5
+>>> print(x)
+5
+>>> x = "ALOK GUPTA"
+>>> print(x)
+Shivam Rajput
+>>>  s = 10
+  File "<python-input-7>", line 1
+    s = 10
+IndentationError: unexpected indent
+>>> s = 10
+>>> t = 15
+>>> print(t-s)
+5
+>>> a = 10
+>>> b = 20
+>>> print(a+b)
+30
+>>> x=float(3)
+>>> print(x)
+3.0
+>>> x=12.34
+>>> print(x)
+12.34
+>>> x=str(3)
+>>> print(x)
+3
+>>> x=float(576)
+>>> print(x)
+576.0
+>>> x=(5
+... print(x)
+...
+  File "<python-input-22>", line 1
+    x=(5
+      ^
+SyntaxError: '(' was never closed
+>>>
+>>> x= ("I am in SAITM")
+>>> print(x)
+I am in SAITM
+>>> x=str(4)
+>>> print(x)
+4
+>>> x=str(4)
+>>> print(type(x))
+<class 'str'>
+>>> x=float(76.54)
+>>> print(x)
+76.54
+>>> x=str(476)
+>>> print(x)
+476
+>>> x=str(6345634456435)
+>>> print(type(x))
+<class 'str'>
+>>> print("To change the \n Line")
+To change the
+ Line
+>>> print("First") print("Second")
+  File "<python-input-37>", line 1
+    print("First") print("Second")
+                   ^^^^^
+SyntaxError: invalid syntax. Did you mean 'in'?
+>>> print("First") print("Second")
+  File "<python-input-38>", line 1
+    print("First") print("Second")
+                   ^^^^^
+SyntaxError: invalid syntax. Did you mean 'in'?
+>>> print("To change The Line")
+To change The Line
+>>> print(5-4)
+1
+>>> print(5*8)
+40
+>>> print(5/4)
+1.25
+>>> print(5//4)
+1
+>>> print(5%5)
+0
+>>> print(8/40)
+0.2
+>>> print(40/8)
+5.0
+>>> print(40//8)
+5
+>>> print(10/2)
+5.0
+>>> print(10//2)
+5
+>>> print(2/2)
+1.0
+>>> print(2//2)
+1
+>>> print(500/5)
+100.0
+>>> print(500//5)
+100
+>>> a = 20
+>>> print("My age is ",a,"years old")
+My age is  20 years old
+>>> a = 40
+>>> print("My age is ",a, "year older")
+My age is  40 year older
+>>> a= 20
+>>> b= 4=
+  File "<python-input-59>", line 1
+    b= 4=
+       ^
+SyntaxError: cannot assign to literal
+>>> a=20
+>>> b=40
+>>> print("My age is ",b-a,"year older")
+My age is  20 year older
+>>> a=500
+>>> b=2
+>>> print("MY age is ",a*b-a/b,"year older")
+MY age is  750.0 year older
+>>> x=y=z=15
+>>> print(z)
+15
+>>> print(x)
+15
+>>> print(y)
+15
+>>> x=15
+>>> y="abcd"
+>>> print(a+b)
+502
+>>> print(x,y)
+15 abcd
+>>> print(x-y)
+Traceback (most recent call last):
+  File "<python-input-74>", line 1, in <module>
+    print(x-y)
+          ^
+TypeError: unsupported operand type(s) for -: 'int' and 'str'
+>>> print(x,y)
+15 abcd
+>>> print(x*y)
+abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd
+>>> x=5
+>>> y="4"
+>>> print(x*y)
+44444
+>>> z="Shivam"
+>>> print(z[1:4])
+hiv
+>>> x="Alok Gupta"
+>>> print(x[2:7])
+ok Gu
+>>> x="SHIVAMSINGHRAJPUT"
+>>> print(x[0:15])
+SHIVAMSINGHRAJP
+>>> x="SHIVAMRAJPUT"
+>>> print(x[0:11])
+SHIVAMRAJPU
+>>> print(x[0:12])
+SHIVAMRAJPUT
+>>> print(x[0:])
+SHIVAMRAJPUT
+>>> print(x[-4:-2])
+JP
+>>> a="abcde"
+>>> print(a.upper())
+ABCDE
+>>> print(a.lower())
+abcde
+>>> z="ABCDE"
+>>> print(z.lower())
+abcde
+>>> print(z.replace("B","K"))
+AKCDE
+>>> print(z.replace("C","S"))
+ABSDE
+>>> print(z.replace("A","S","B","H","C","I","D","V","E","AM"))
+Traceback (most recent call last):
+  File "<python-input-98>", line 1, in <module>
+    print(z.replace("A","S","B","H","C","I","D","V","E","AM"))
+          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: replace() takes at most 3 arguments (10 given)
+>>>
